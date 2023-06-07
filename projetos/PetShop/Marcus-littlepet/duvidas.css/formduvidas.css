@@ -1,0 +1,64 @@
+h1{
+    color: pink;
+    text-align: center;
+
+}
+.form-master{
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(9, 119, 192);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    margin: 0 auto;
+    
+}
+.form-master h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.form-master p{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:smaller;
+    
+}
+.form-master input, 
+.form-master textarea{
+    border-radius:10px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.form-btn{
+    display: flex;
+    justify-content:center;
+    
+}
+.form-btn input{
+    background-color:rgba(255, 255, 255, 0.618);
+    border:none;
+    border-radius: 2em;
+    height: 2.5em;
+    width:8em;
+    
+}
+.form-master input:invalid{
+    animation: shake 0.2s 2;
+    border: 1px solid red;
+}
+@keyframes shake {
+    25% {translate: 6px 0};
+    50% {translate: -6px 0};
+    75% {translate: 6px 0}
+}
+.tabela{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}

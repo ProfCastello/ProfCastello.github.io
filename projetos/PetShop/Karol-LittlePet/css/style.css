@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kavoon');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Atma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+
+body {
+    margin: 0;
+}
+
+img .imagemlittlepettexto.jpg {
+    width: 10px;
+    width: 10px;
+}
+
+
+.mainNav {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: none;
+    margin: none;
+    background-color: rgb(0, 96, 216);
+    
+
+}
+.mainNav li a{
+    font-family: 'Caglioso';
+}
+
+.masthead{
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.masthead li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.masthead li a {
+    text-decoration: none;
+    color: white;
+}
+
+.masthead ul {
+    padding: none;
+}
+
+main{
+    margin-top: 194px;
+}
+
+.form-master {
+    text-transform: uppercase;
+    background-color: rgb(0, 96, 216);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.form-master input {
+    border-radius: 40px;
+    background: white;
+    border: none;
+    width: 50em;
+    height: 3em;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.coluna1 {
+    position: absolute;
+    padding-left: 3em;
+}
+
+.coluna2 {
+    display: flex;
+    font-family: 'jockey one';
+}
+
+.rodape,
+.rodape a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.slogan {
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    color: #00468E;
+    font-size: 34pt;
+    font-family: 'Kavoon';
+}
+
+.animais {
+    display: flex;
+    gap: 2em;
+    padding-top: 20px;
+    padding-left: 1em;
+    overflow-x: auto;
+    font-family: 'jockey one';
+}
+
+.animais::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+}
+
+.card img {
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #00468E;
+}
+
+.card h3{
+    text-align: center;
+}
+#welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(169, 169, 169);
+    font-family: 'economica';
+}
+
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn input {
+    display: flex;
+    justify-content: center;
+    background-color: #00468E;
+    color: white;
+    border: none;
+    border-radius: 2em;
+    width: 15em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.form-btn2 input {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #00468E;
+    border: none;
+    border-radius: 2em;
+    width: 15em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+#separador {
+    display: flex;
+    justify-content: center;
+}
+
+.separador img {
+    width: 40em;
+}
+
+.promoção {
+    text-align: center;
+    color: #0060D8;
+    font-size: 34pt;
+    font-family: 'Elsie';
+}
+
+.estoque {
+    text-align: center;
+    color: #3C5D8F;
+    font-size: 24pt;
+    font-family: 'Elsie';
+}
+
+#prodEstoque {
+    display: flex;
+    justify-content: center;
+}
+
+.prodEstoque {
+    width: 700px;
+    /* height: 700px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(169, 169, 169);
+    background-color: #E2DFDF;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.cardEstoque{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardEstoque img{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.cardEstoque div{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 40px;
+    margin-top: -40px;
+}
+
+
+footer h3{
+    text-align: center;
+    margin: 0;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    color: #00468E;
+    font-size: 50pt;
+    font-family: 'Jockey One';
+}
+
+#localização{
+    display: flex;
+    justify-content: center;
+}
+
+.localização{
+    width: 500px;
+    height: 250px;    
+    box-shadow: 10px 10px 10px 8px rgb(197, 197, 197);
+}
+
+.localização h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.localização i{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 60pt;
+    padding-top: 10px;
+}
+
+.feedback{
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2em;
+    margin: auto;
+}
+
+.feedback h2{
+    display: flex;
+    justify-content: center;
+    color: #00468E;
+}
+
+.feedback p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
